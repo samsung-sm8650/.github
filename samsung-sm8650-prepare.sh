@@ -47,7 +47,8 @@ mkdir -p device/samsung
 mkdir -p hardware/qcom-caf/sm8650
 
 dl-src android_device_samsung_e3q lineage-21 device/samsung/e3q
-dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
 dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/primary-hal
+dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
+dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-car/sm8650/media
 
 quit 0
