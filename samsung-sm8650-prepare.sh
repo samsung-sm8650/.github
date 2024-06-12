@@ -20,10 +20,8 @@ note () {
 
 dl-src () {
 	[[ $USE_SSH -eq 1 ]] &&
-		note "Using SSH to clone git repositories." &&
 		git clone --branch $2 git@github.com:samsung-sm8650/$1.git $3 &&
 		return ||
-		note "Using HTTPS to clone git repositores." &&
 		git clone --branch $2 https://github.com/samsung-sm8650/$1.git $3 &&
 		return
 
@@ -43,6 +41,7 @@ source build/envsetup.sh
 repopick 389365 394099 394100
 
 # Clone sm8650 HALs
+[[ $USE_SSH -eq 1 ]] && note "Using SSH to clone git repositories." || note "Using HTTPS to clone git repositores."
 dl-src android_device_samsung_e3q lineage-21 device/samsung/e3q
 dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/primary-hal
 dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
