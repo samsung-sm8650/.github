@@ -49,6 +49,7 @@ dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/s
 dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/media
 dl-src android_vendor_qcom_opensource_agm lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/agm
 dl-src android_vendor_qcom_opensource_arpal-lx lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/pal
+dl-src android_vendor_qcom_opensource_dataipa lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8550/dataipa
 
 # Add necessary symlinks
 ln -s ../../common/os_pickup_audio-ar.mk hardware/qcom-caf/sm8650/audio/Android.mk
