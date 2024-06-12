@@ -46,7 +46,13 @@ repopick 389365 394099 394100
 dl-src android_device_samsung_e3q lineage-21 device/samsung/e3q
 dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/primary-hal
 dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
-dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-car/sm8650/media
+dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/media
+dl-src android_vendor_qcom_opensource_agm lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/agm
 dl-src android_vendor_qcom_opensource_arpal-lx lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/pal
+
+# Add necessary symlinks
+ln -s ../../common/os_pickup_audio-ar.mk hardware/qcom-caf/sm8650/audio/Android.mk
+ln -s ../common/os_pickup.mk hardware/qcom-caf/sm8650/Android.mk
+ln -s ../common/os_pickup_qssi.bp hardware/qcom-caf/sm8650/Android.bp
 
 quit 0
