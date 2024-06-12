@@ -8,4 +8,5 @@
 * android_hardware_qcom_audio-ar: https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
 * android_hardware_qcom_media: https://git.codelinaro.org/clo/la/platform/hardware/qcom/media/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
 * android_hardware_qcom_wlan: https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
+* android_vendor_qcom_opensource_agm: https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/agm/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
 * android_vendor_qcom_opensource_arpal-lx: https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
