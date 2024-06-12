@@ -1,5 +1,5 @@
 # Organization for Samsung SM8650 devices
-This organizations hold repositories for Samsung devices based on the Qualcomm SM8650 SoC.
+This organization holds repositories for Samsung devices based on the Qualcomm SM8650 SoC.
 
 Devices currently in the works:
  * Galaxy S24 Ultra (e3q)
