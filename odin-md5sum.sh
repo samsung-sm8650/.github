@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script extracts the MD5 sum of an Odin-compatible .tar.md5 file and checks the integrity of it
+# This script extracts the MD5 sum of an Odin-compatible .tar.md5 file and compares the sum with the MD5 of the actual data
 
 # Check if file name ends with .tar.md5
 (echo $1 | grep -q '.tar.md5\>') || (echo "No .tar.md5 file found" && exit)
