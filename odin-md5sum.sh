@@ -6,7 +6,7 @@
 
 # Check if file name of the tar archive is appended to the .tar.md5 file
 SIZE=$(wc -c < $1)
-(dd if=$1 bs=$(($SIZE - 5)) skip=1 status=none | grep -q ".tar") || (echo "No checksum found" && exit)
+(dd if=$1 bs=1 skip=$(($SIZE - 5)) status=none | grep -q ".tar") || (echo "No checksum found" && exit)
 
 echo "Getting MD5 sums..."
 
@@ -15,7 +15,7 @@ COUNTER=0
 while (echo "$DATA" | grep -vq "  "); do
 	((COUNTER++))
 	SKIP=$(($SIZE - $COUNTER))
-	DATA=$(dd if=$1 bs=$SKIP skip=1 status=none)
+	DATA=$(dd if=$1 bs=1 skip=$SKIP status=none)
 done
 
 # Calcualte MD5 sums
