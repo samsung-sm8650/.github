@@ -8,7 +8,7 @@
 SIZE=$(wc -c < $1)
 (dd if=$1 bs=1 skip=$(($SIZE - 5)) status=none | grep -q ".tar") || (echo "No checksum found" && exit)
 
-echo "Getting MD5 sums..."
+echo "Calculating MD5 sums for $1..."
 
 # Get size of appended "md5sum" footer. Won't work if there are two spaces in the file name!
 COUNTER=0
