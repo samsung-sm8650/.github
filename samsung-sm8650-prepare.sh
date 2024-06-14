@@ -35,16 +35,20 @@ dl-src () {
 source build/envsetup.sh
 
 # Pick the following patches from LineageOS Gerrit
-# https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/389365
 # https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/394099
 # https://review.lineageos.org/c/LineageOS/android/+/394100
-repopick 389365 394099 394100
+repopick 394099 394100
+
+# TODO: Update https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/389365
+# to remove wifi.keystore entry
+rm -rf hardware/qcom-caf/common
 
 # Clone sm8650 HALs
 [[ $USE_SSH -eq 1 ]] && note "Using SSH to clone git repositories." || note "Using HTTPS to clone git repositores."
 dl-src android_device_qcom_sepolicy_vndr lineage-21.0-caf-sm8650 device/qcom/sepolicy_vndr/sm8650
 dl-src android_device_samsung_e3q lineage-21 device/samsung/e3q
 dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/primary-hal
+dl-src android_hardware_qcom-caf_common lineage-21.0 hardware/qcom-caf/common
 dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
 dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/media
 dl-src android_vendor_qcom_opensource_agm lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/agm
