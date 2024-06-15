@@ -21,6 +21,7 @@
 * android_kernel_qcom_sm8650: https://git.codelinaro.org/clo/la/kernel/qcom/-/tags?sort=updated_desc&search=KERNEL.PLATFORM.3.0.r1-
 * android_vendor_qcom_opensource_agm: https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/agm/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
 * android_vendor_qcom_opensource_arpal-lx: https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
+* android_vendor_qcom_opensource_audio-kernel: https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-kernel-ar/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
 * android_vendor_qcom_opensource_core-utils: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/core-utils/-/tags?sort=updated_desc&search=LA.QSSI.14.0.r1
 * android_vendor_qcom_opensource_core-utils-sys: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/core-utils-sys/-/tags?sort=updated_desc&search=LA.QSSI.14.0.r1
 * android_vendor_qcom_opensource_core-utils-vendor: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/core-utils-vendor/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
