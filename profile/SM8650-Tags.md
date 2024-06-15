@@ -1,15 +1,16 @@
 # CodeLinaro Tags for SM8650/pineapple
 Latest tags as of 2024-06-15:
-* AUDIO.LA.9.0.r1-06300-lanai.0
-* CAMERA.LA.4.0.r2-05800-lanai.0
-* CV.LA.2.0.r1-04500-lanai.0
-* DISPLAY.LA.4.0.r2-06500-lanai.0
-* GRAPHICS.LA.14.0.r1-06100-lanai.0
-* KERNEL.PLATFORM.3.0.r1-08700-kernel.0
-* LA.QSSI.14.0.r1-15100-qssi.0
-* LA.VENDOR.14.3.0.r1-13400-lanai.0
-* VIDEO.LA.4.0.r2-05000-lanai.0
+* AUDIO.LA.9.0.r1-06300-lanai.0: https://git.codelinaro.org/clo/la/techpack/audio/manifest/-/blob/AUDIO.LA.9.0.r1-06300-lanai.0/AUDIO.LA.9.0.r1-06300-lanai.0.xml
+* CAMERA.LA.4.0.r2-05800-lanai.0: https://git.codelinaro.org/clo/la/techpack/camera/manifest/-/blob/CAMERA.LA.4.0.r2-05800-lanai.0/CAMERA.LA.4.0.r2-05800-lanai.0.xml
+* CV.LA.2.0.r1-04500-lanai.0: https://git.codelinaro.org/clo/la/techpack/cv/manifest/-/blob/CV.LA.2.0.r1-04500-lanai.0/CV.LA.2.0.r1-04500-lanai.0.xml
+* DISPLAY.LA.4.0.r2-06500-lanai.0: https://git.codelinaro.org/clo/la/techpack/display/manifest/-/blob/DISPLAY.LA.4.0.r2-06500-lanai.0/DISPLAY.LA.4.0.r2-06500-lanai.0.xml
+* GRAPHICS.LA.14.0.r1-06100-lanai.0: https://git.codelinaro.org/clo/la/techpack/graphics/manifest/-/blob/GRAPHICS.LA.14.0.r1-06100-lanai.0/GRAPHICS.LA.14.0.r1-06100-lanai.0.xml
+* KERNEL.PLATFORM.3.0.r1-08700-kernel.0: https://git.codelinaro.org/clo/la/kernelplatform/manifest/-/blob/KERNEL.PLATFORM.3.0.r1-08700-kernel.0/KERNEL.PLATFORM.3.0.r1-08700-kernel.0.xml
+* LA.QSSI.14.0.r1-15100-qssi.0: https://git.codelinaro.org/clo/la/la/system/manifest/-/blob/LA.QSSI.14.0.r1-15100-qssi.0/LA.QSSI.14.0.r1-15100-qssi.0.xml
+* LA.VENDOR.14.3.0.r1-13400-lanai.0: https://git.codelinaro.org/clo/la/la/vendor/manifest/-/blob/LA.VENDOR.14.3.0.r1-13400-lanai.0/LA.VENDOR.14.3.0.r1-13400-lanai.0.xml
+* VIDEO.LA.4.0.r2-05000-lanai.0: https://git.codelinaro.org/clo/la/techpack/video/manifest/-/blob/VIDEO.LA.4.0.r2-05000-lanai.0/VIDEO.LA.4.0.r2-05000-lanai.0.xml
 ----------------------------------------------------------------------------------------------------------------------------
+View all tags:
 * AUDIO.LA.9.0.r1: https://git.codelinaro.org/clo/la/techpack/audio/manifest/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
 * CAMERA.LA.4.0.r2: https://git.codelinaro.org/clo/la/techpack/camera/manifest/-/tags?sort=updated_desc&search=CAMERA.LA.4.0.r2
 * CV.LA.2.0.r1: https://git.codelinaro.org/clo/la/techpack/cv/manifest/-/tags?sort=updated_desc&search=CV.LA.2.0.r1
