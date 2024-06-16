@@ -13,7 +13,7 @@ Devices currently in the works:
     ```
 4. Download the latest dump into ~/Downloads or some other directory:
     ```
-    $ git clone https://dumps.tadiphone.dev/dumps/samsung/e3q.git --single-branch --branch e3qxxx-user-14-UP1A.231005.007-S928BXXS2AXEF-release-keys ~/Download/e3q-dump
+    $ git clone https://dumps.tadiphone.dev/dumps/samsung/e3q.git --single-branch --branch e3qxxx-user-14-UP1A.231005.007-S928BXXS2AXEF-release-keys ~/Downloads/e3q-dump
     ```
 5. Extract vendor files:
     ```
