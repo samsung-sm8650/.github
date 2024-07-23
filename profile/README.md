@@ -1,8 +1,9 @@
 # Organization for Samsung SM8650 devices
 This organization holds repositories for Samsung devices based on the Qualcomm SM8650 SoC.
+* Telegram group: https://t.me/samsung_sm8650
 
 Status:
- * Unable to build as of 2024-06-17
+ * Unable to boot as of 2024-07-23
 
 Devices currently in the works:
  * Galaxy S24 Ultra (e3q)
