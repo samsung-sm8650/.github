@@ -3,10 +3,10 @@ This organization holds repositories for Samsung devices based on the Qualcomm S
 * Telegram group: https://t.me/samsung_sm8650
 
 Status:
- * Unable to boot as of 2024-07-23
+ * Kernel boots but LineageOS crashes early on. Recovery works. (As of 31-07-2024)
 
 Devices currently in the works:
- * Galaxy S24 Ultra (e3q)
+ * Galaxy S24 Ultra (e3q, SM-S928B)
 
 ## Getting started
 1. Clone the lineage-21.0 source code by following [this page](https://wiki.lineageos.org/emulator) until the end of the ["Download the source code"](https://wiki.lineageos.org/emulator#download-the-source-code) section
