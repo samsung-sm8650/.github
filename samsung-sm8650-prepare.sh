@@ -51,6 +51,9 @@ dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/
 dl-src android_hardware_qcom-caf_common lineage-21.0 hardware/qcom-caf/common
 dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
 dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/media
+dl-src android_kernel_samsung_sm8650-devicetrees lineage-21 kernel/samsung/sm8650-devicetrees
+dl-src android_kernel_samsung_sm8650 lineage-21 kernel/samsung/sm8650
+dl-src android_kernel_samsung_sm8650-modules lineage-21 kernel/samsung/sm8650-modules
 dl-src android_vendor_qcom_opensource_agm lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/agm
 dl-src android_vendor_qcom_opensource_arpal-lx lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/pal
 dl-src android_vendor_qcom_opensource_data-ipa-cfg-mgr lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
