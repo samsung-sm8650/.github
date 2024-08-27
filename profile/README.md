@@ -3,7 +3,7 @@ This organization holds repositories for Samsung devices based on the Qualcomm S
 * Telegram group: https://t.me/samsung_sm8650
 
 Status:
- * Kernel boots but LineageOS crashes early on. Recovery works. (As of 31-07-2024)
+ * Kernel boots but LineageOS crashes early on due to KeyMint issues. Recovery works. (As of 27-08-2024)
 
 Devices currently in the works:
  * Galaxy S24 Ultra (e3q, SM-S928B)
@@ -17,7 +17,7 @@ Devices currently in the works:
     ```
 4. Download the latest dump into ~/Downloads or some other directory:
     ```
-    $ git clone https://dumps.tadiphone.dev/dumps/samsung/e3q.git --single-branch --branch e3qxxx-user-14-UP1A.231005.007-S928BXXS2AXEF-release-keys ~/Downloads/e3q-dump
+    $ git clone https://dumps.tadiphone.dev/dumps/samsung/e3q.git --single-branch --branch e3qxxx-user-14-UP1A.231005.007-S928BXXS3AXGF-release-keys ~/Downloads/e3q-dump
     ```
 5. Extract vendor files:
     ```
