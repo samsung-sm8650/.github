@@ -25,9 +25,11 @@ for file in args:
     if (".zip" or ".tar.gz") not in file:
         warning(f"{file} does not contain '.zip' or '.tar.gz' in the filename")
     info(f"Checking whether {file} has already been uploaded")
-    with open(file, 'rb') as file_to_check:
-        data = file_to_check.read()
-        md5 = hashlib.md5(data).hexdigest()
+    with open(file, 'rb') as f:
+        hasher = hashlib.md5()
+        while data := f.read(2**12):
+            hasher.update(data)
+        md5 = hasher.hexdigest()
         if f'"md5":"{md5}"' in metadata:
             warning(f"{file} has already been uploaded")
             continue
