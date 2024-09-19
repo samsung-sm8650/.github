@@ -41,7 +41,8 @@ repopick 394099 394100
 
 # TODO: Update https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/389365
 # to remove wifi.keystore entry
-rm -rf hardware/qcom-caf/common
+rm -rf hardware/qcom-caf/common \
+	vendor/qcom/opensource/usb
 
 # Clone sm8650 HALs
 [[ $USE_SSH -eq 1 ]] && note "Using SSH to clone git repositories." || note "Using HTTPS to clone git repositores."
@@ -58,6 +59,7 @@ dl-src android_vendor_qcom_opensource_agm lineage-21.0-caf-sm8650 hardware/qcom-
 dl-src android_vendor_qcom_opensource_arpal-lx lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/audio/pal
 dl-src android_vendor_qcom_opensource_data-ipa-cfg-mgr lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
 dl-src android_vendor_qcom_opensource_dataipa lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/dataipa
+dl-src android_vendor_qcom_opensource_usb lineage-21.0 vendor/qcom/opensource/usb
 
 # Add necessary symlinks
 ln -s ../../common/os_pickup_audio-ar.mk hardware/qcom-caf/sm8650/audio/Android.mk
