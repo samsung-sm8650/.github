@@ -19,6 +19,9 @@ note () {
 }
 
 dl-src () {
+	[[ -n $4 ]] &&
+		REPO=$4 ||
+		REPO="samsung-sm8650"
 	[[ $USE_SSH -eq 1 ]] &&
 		git clone --branch $2 git@github.com:samsung-sm8650/$1.git $3 &&
 		return ||
@@ -42,6 +45,7 @@ repopick 394099 394100
 # TODO: Update https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/389365
 # to remove wifi.keystore entry
 rm -rf hardware/qcom-caf/common \
+	hardware/samsung \
 	vendor/qcom/opensource/usb
 
 # Clone sm8650 HALs
@@ -52,6 +56,7 @@ dl-src android_hardware_qcom_audio-ar lineage-21.0-caf-sm8650 hardware/qcom-caf/
 dl-src android_hardware_qcom-caf_common lineage-21.0 hardware/qcom-caf/common
 dl-src android_hardware_qcom_display lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/display
 dl-src android_hardware_qcom_media lineage-21.0-caf-sm8650 hardware/qcom-caf/sm8650/media
+dl-src android_hardware_samsung lineage-21 hardware/samsung LineageOS
 dl-src android_kernel_samsung_sm8650-devicetrees lineage-21 kernel/samsung/sm8650-devicetrees
 dl-src android_kernel_samsung_sm8650 lineage-21 kernel/samsung/sm8650
 dl-src android_kernel_samsung_sm8650-modules lineage-21 kernel/samsung/sm8650-modules
