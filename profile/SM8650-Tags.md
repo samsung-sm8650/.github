@@ -1,14 +1,14 @@
 # CodeLinaro Tags for SM8650/pineapple
-Latest tags as of 2024-07-13:
-* AUDIO.LA.9.0.r1-06600-lanai.0: https://git.codelinaro.org/clo/la/techpack/audio/manifest/-/blob/AU_TECHPACK_AUDIO.LA.9.0.R1.00.00.00.000.066/AU_TECHPACK_AUDIO.LA.9.0.R1.00.00.00.000.066.xml
-* CAMERA.LA.4.0.r2-06100-lanai.0: https://git.codelinaro.org/clo/la/techpack/camera/manifest/-/blob/AU_TECHPACK_CAMERA.LA.4.0.R2.00.00.00.000.061/AU_TECHPACK_CAMERA.LA.4.0.R2.00.00.00.000.061.xml
-* CV.LA.2.0.r1-04800-lanai.0: https://git.codelinaro.org/clo/la/techpack/cv/manifest/-/blob/AU_TECHPACK_CV.LA.2.0.R1.00.00.00.000.048/AU_TECHPACK_CV.LA.2.0.R1.00.00.00.000.048.xml
-* DISPLAY.LA.4.0.r2-06800-lanai.0: https://git.codelinaro.org/clo/la/techpack/display/manifest/-/blob/AU_TECHPACK_DISPLAY.LA.4.0.R2.00.00.00.000.068/AU_TECHPACK_DISPLAY.LA.4.0.R2.00.00.00.000.068.xml
-* GRAPHICS.LA.14.0.r1-06500-lanai.0: https://git.codelinaro.org/clo/la/techpack/graphics/manifest/-/blob/AU_TECHPACK_GRAPHICS.LA.14.0.R1.00.00.00.000.065/AU_TECHPACK_GRAPHICS.LA.14.0.R1.00.00.00.000.065.xml
-* KERNEL.PLATFORM.3.0.r1-09200-kernel.0: https://git.codelinaro.org/clo/la/kernelplatform/manifest/-/blob/AU_LINUX_KERNEL.PLATFORM.3.0.R1.00.00.00.017.092/AU_LINUX_KERNEL.PLATFORM.3.0.R1.00.00.00.017.092.xml
-* LA.QSSI.14.0.r1-15700-qssi.0: https://git.codelinaro.org/clo/la/la/system/manifest/-/blob/AU_LINUX_ANDROID_LA.QSSI.14.0.R1.14.00.00.1001.157.00/AU_LINUX_ANDROID_LA.QSSI.14.0.R1.14.00.00.1001.157.00.xml
-* LA.VENDOR.14.3.0.r1-14500-lanai.0: https://git.codelinaro.org/clo/la/la/vendor/manifest/-/blob/release/LA.VENDOR.14.3.0.r1-14500-lanai.0.xml
-* VIDEO.LA.4.0.r2-05300-lanai.0: https://git.codelinaro.org/clo/la/techpack/video/manifest/-/blob/AU_TECHPACK_VIDEO.LA.4.0.R2.00.00.00.000.053/AU_TECHPACK_VIDEO.LA.4.0.R2.00.00.00.000.053.xml
+Latest tags as of 2024-10-31:
+* AUDIO.LA.9.0.r1-07500-lanai.0: https://git.codelinaro.org/clo/la/techpack/audio/manifest/-/blob/AUDIO.LA.9.0.r1-07500-lanai.0/AUDIO.LA.9.0.r1-07500-lanai.0.xml
+* CAMERA.LA.4.0.r2-07100-lanai.0: https://git.codelinaro.org/clo/la/techpack/camera/manifest/-/blob/CAMERA.LA.4.0.r2-07100-lanai.0/CAMERA.LA.4.0.r2-07100-lanai.0.xml
+* CV.LA.2.0.r1-04900-lanai.0: https://git.codelinaro.org/clo/la/techpack/cv/manifest/-/blob/CV.LA.2.0.r1-04900-lanai.0/CV.LA.2.0.r1-04900-lanai.0.xml
+* DISPLAY.LA.4.0.r2-07900-lanai.0: https://git.codelinaro.org/clo/la/techpack/display/manifest/-/blob/DISPLAY.LA.4.0.r2-07900-lanai.0/DISPLAY.LA.4.0.r2-07900-lanai.0.xml
+* GRAPHICS.LA.14.0.r1-06500-lanai.0: https://git.codelinaro.org/clo/la/techpack/graphics/manifest/-/blob/GRAPHICS.LA.14.0.r1-08000-lanai.0/GRAPHICS.LA.14.0.r1-08000-lanai.0.xml
+* KERNEL.PLATFORM.3.0.r1-09200-kernel.0: https://git.codelinaro.org/clo/la/kernelplatform/manifest/-/blob/KERNEL.PLATFORM.3.0.r1-10700-kernel.0/KERNEL.PLATFORM.3.0.r1-10700-kernel.0.xml
+* LA.QSSI.14.0.r1-15700-qssi.0: https://git.codelinaro.org/clo/la/la/system/manifest/-/blob/LA.QSSI.14.0.r1-17700-qssi.0/LA.QSSI.14.0.r1-17700-qssi.0.xml
+* LA.VENDOR.14.3.0.r1-14500-lanai.0: https://git.codelinaro.org/clo/la/la/vendor/manifest/-/blob/LA.VENDOR.14.3.0.r1-17600-lanai.QSSI15.0/LA.VENDOR.14.3.0.r1-17600-lanai.QSSI15.0.xml
+* VIDEO.LA.4.0.r2-05300-lanai.0: https://git.codelinaro.org/clo/la/techpack/video/manifest/-/blob/VIDEO.LA.4.0.r2-06200-lanai.0/VIDEO.LA.4.0.r2-06200-lanai.0.xml
 ---
 View all tags:
 * AUDIO.LA.9.0.r1: https://git.codelinaro.org/clo/la/techpack/audio/manifest/-/tags?sort=updated_desc&search=AUDIO.LA.9.0.r1
@@ -39,3 +39,4 @@ View all tags:
 * android_vendor_qcom_opensource_core-utils-vendor: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/core-utils-vendor/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
 * android_vendor_qcom_opensource_data-ipa-cfg-mgr: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
 * android_vendor_qcom_opensource_dataipa: https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
+* android_vendor_qcom_opensource_usb: https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/usb/-/tags?sort=updated_desc&search=LA.VENDOR.14.3.0.r1
