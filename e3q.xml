@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="LineageOS/android_hardware_qcom-caf_common"/>
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_usb"/>
+    <remove-project name="LineageOS/android_hardware_samsung_nfc"/>
 
-    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8650/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8650" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_device_samsung_e3q" path="device/samsung/e3q" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8650/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8650/audio/primary-hal" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="lineage-21.0" remote="github">
+    <project name="samsung-sm8650/android_hardware_samsung" path="hardware/samsung" revision="lineage-22.0" remote="github"/>
+    <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" revision="lineage-22.0" remote="github"/>
+
+    <project name="samsung-sm8650/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8650" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_device_samsung_e3q" path="device/samsung/e3q" revision="lineage-22.0" remote="github"/>
+    <project name="samsung-sm8650/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8650/audio/primary-hal" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="lineage-22.0" remote="github">
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
         <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
@@ -36,14 +38,13 @@
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
     </project>
-    <project name="samsung-sm8650/android_hardware_qcom_display" path="hardware/qcom-caf/sm8650/display" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_hardware_qcom_media" path="hardware/qcom-caf/sm8650/media" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_kernel_samsung_sm8650-devicetrees" path="kernel/samsung/sm8650-devicetrees" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8650/android_kernel_samsung_sm8650-modules" path="kernel/samsung/sm8650-modules" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8650/android_kernel_samsung_sm8650" path="kernel/samsung/sm8650" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8650/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8650/audio/agm" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8650/audio/pal" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_vendor_qcom_opensource_dataipa" path="hardware/qcom-caf/sm8650/dataipa" revision="lineage-21.0-caf-sm8650" remote="github"/>
-    <project name="samsung-sm8650/android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" revision="lineage-21.0" remote="github"/>
+    <project name="samsung-sm8650/android_hardware_qcom_display" path="hardware/qcom-caf/sm8650/display" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_hardware_qcom_media" path="hardware/qcom-caf/sm8650/media" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_kernel_samsung_sm8650-devicetrees" path="kernel/samsung/sm8650-devicetrees" revision="lineage-22.0" remote="github"/>
+    <project name="samsung-sm8650/android_kernel_samsung_sm8650-modules" path="kernel/samsung/sm8650-modules" revision="lineage-22.0" remote="github"/>
+    <project name="samsung-sm8650/android_kernel_samsung_sm8650" path="kernel/samsung/sm8650" revision="lineage-22.0" remote="github"/>
+    <project name="samsung-sm8650/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8650/audio/agm" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8650/audio/pal" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" revision="lineage-22.0-caf-sm8650" remote="github"/>
+    <project name="samsung-sm8650/android_vendor_qcom_opensource_dataipa" path="hardware/qcom-caf/sm8650/dataipa" revision="lineage-22.0-caf-sm8650" remote="github"/>
 </manifest>
